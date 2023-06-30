@@ -1,5 +1,5 @@
 <!-- Insert an image from the current directory -->
-![UML Class Diagram](./Ruby-Catalog-Group-Capstone.png)
+![UML Class Diagram](./catalog_of_my_things.png)
 
 <a name="readme-top"></a>
 
