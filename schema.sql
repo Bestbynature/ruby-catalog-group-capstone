@@ -1,9 +1,9 @@
---Create Database
-DROP DATABASE IF EXISTS Ruby-Catalog-Group-Capstone-Project;
-CREATE DATABASE Ruby-Catalog-Group-Capstone-Project;
+-- Create Database
+DROP DATABASE IF EXISTS Ruby_Catalog_Group_Capstone_Project;
+CREATE DATABASE Ruby_Catalog_Group_Capstone_Project;
 
 -- Use Database
-USE Ruby-Catalog-Group-Capstone-Project;
+USE Ruby_Catalog_Group_Capstone_Project;
 
 -- Table: Item
 CREATE TABLE Item (
@@ -75,3 +75,13 @@ CREATE TABLE Game (
   last_played_at DATE,
   FOREIGN KEY (item_id) REFERENCES Item(id)
 );
+
+-- Create Indexes
+CREATE INDEX idx_item_genre_id ON Item (genre_id);
+CREATE INDEX idx_item_author_id ON Item (author_id);
+CREATE INDEX idx_item_source_id ON Item (source_id);
+CREATE INDEX idx_item_label_id ON Item (label_id);
+CREATE INDEX idx_book_item_id ON Book (item_id);
+CREATE INDEX idx_music_album_item_id ON MusicAlbum (item_id);
+CREATE INDEX idx_movie_item_id ON Movie (item_id);
+CREATE INDEX idx_game_item_id ON Game (item_id);
