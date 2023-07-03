@@ -68,7 +68,7 @@ class FileSaver
         'publish_date' => item.publish_date
       }
 
-    attributes['on_spotify'] = item.on_spotify if item.is_a?(MusicAlbum)
+      attributes['on_spotify'] = item.on_spotify if item.is_a?(MusicAlbum)
       attributes['silent'] = item.silent if item.is_a?(Movie)
       add_book_attributes(attributes, item) if item.is_a?(Book)
       add_game_attributes(attributes, item) if item.is_a?(Game)
@@ -98,4 +98,4 @@ class FileSaver
     file.write("[\n#{file_content}\n]")
     file.close
   end
-end  
+end

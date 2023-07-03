@@ -91,7 +91,7 @@ class FileLoader
       item_object['last_played_at'] = item['last_played_at']
       Game.new(item_object)
 
-      when 'Book'
+    when 'Book'
       item_object['publisher'] = item['publisher']
       item_object['cover_state'] = item['cover_state']
       Book.new(item_object)
