@@ -154,6 +154,11 @@ You can deploy this project using:
 - Twitter: [@amazinggaceu](https://twitter.com/amazinggraceu)
 - LinkedIn: [Amarachi Dimkpa](https://linkedin.com/in/amarachi-dimkpa-070643183)
 
+👤 **Author: Sasan Moshirabadi**
+
+- GitHub: [@dev89s](https://github.com/dev89s)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/sasan-moshirabadi)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
